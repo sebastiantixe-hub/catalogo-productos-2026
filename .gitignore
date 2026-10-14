@@ -1,0 +1,26 @@
+# .NET
+backend/CatalogAPI/bin/
+backend/CatalogAPI/obj/
+*.user
+*.suo
+
+# Angular
+frontend/catalog-frontend/node_modules/
+frontend/catalog-frontend/dist/
+frontend/catalog-frontend/.angular/
+
+# Secrets (never commit real secrets)
+backend/CatalogAPI/appsettings.Development.json
+backend/CatalogAPI/appsettings.json
+
+# VS / IDE
+.vs/
+.vscode/settings.json
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
